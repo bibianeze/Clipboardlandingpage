@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.image img {
+  width: 300px;
+  background-image: url(../../../images/bg-header-mobile.png);
+}
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+}
+h3{
+    font-family: "Bai Jamjuree", sans-serif;
+  color: hsl(210, 10%, 33%);
+  /* text-align: center; */
+}
+p {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+.secbtn1 {
+  display: flex;
+  flex-direction: column;
+  /* width: 19rem; */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* align-items: center; */
+}
+.btn1 {
+  width: 15rem;
+  background-color: hsl(171, 66%, 44%);
+  height: 3rem;
+  border: none;
+  border-radius: 3rem;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+}
+.btn2 {
+  width: 15rem;
+  background-color: hsl(233, 100%, 69%);
+  height: 3rem;
+  border: none;
+  border-radius: 3rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+.image2 img{
+    width: 280px;
+    margin: 0 auto;
+    margin-left: 2.5rem;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quicksec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image3 img{
+    width: 280px;
+     margin-left: 2rem;
+}
+.iconsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 6rem;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 6rem;
+}
+.insidesec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 500px){
+    .sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.secbtn1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.parasec1{
+     font-size: 12px;
+     margin: 2rem;
+}
+
+.parasec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.insidesec2{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.quicksec{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.quicksec p{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* text-align: start; */
+    text-align: left;
+    align-items: left;
+    line-height: 1.5rem;
+    
+}
+.quicksec h3{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* text-align: start; */
+    text-align: left !important;
+    align-items: left;
+    margin-bottom: -1rem;
+}
+.image2 img{
+    width: 250px;
+    height: 270px;
+    /* position: relative;
+    right: 2rem; */
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image3 img{
+    width: 300px;
+}
+.parasec2 p {
+    font-size: 13px;
+}
+.parasec3 p{
+    font-size: 13px;
+}
+.parasec4 p{
+    font-size: 13px;
+}
+.group3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 2rem;
+}
+.group3 p{
+    font-size: 10px;
+}
+.group3 h3{
+    font-size: 13px;
+}
+.quicksec p{
+    font-size: 13px;
+}
+.logo{
+    margin-top: -1rem;
+     display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 2rem;
+    padding: 4rem;
+    /* width: 10px; */
+    margin-bottom: 6rem;
+}
+.google img{
+    width: 4rem;
+}
+.ibm img{
+    width: 4rem;
+}
+.microsoft img{
+    width: 4rem;
+}
+.hp img{
+    width: 4rem;
+}
+.vector img{
+    width: 4rem;
+}
+.lastsec{
+    padding: 3rem;
+    margin-top: -3.5rem;
+    margin-bottom: -3rem;
+}
+.ls p{
+    font-size: 13px;
+}
+.container{
+    padding: 2rem;
+}
+
+
+}
